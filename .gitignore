@@ -1,0 +1,16 @@
+*.class
+.cache
+.history
+.lib/
+src_managed/
+lib_managed/
+project/boot/
+project/plugins/project/
+target/
+
+.scala_dependencies
+.worksheet
+.classpath
+.project
+.settings/
+
