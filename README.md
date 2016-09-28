@@ -3,6 +3,10 @@ Exercism Scala
 
 [![GPLv3 License](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/copyleft/gpl.html)
 
+[![CircleCI](https://circleci.com/gh/quikkoo/exercism-scala.svg?style=svg)](https://circleci.com/gh/quikkoo/exercism-scala)
+[![Build Status](https://snap-ci.com/quikkoo/exercism-scala/branch/master/build_image)](https://snap-ci.com/quikkoo/exercism-scala/branch/master)
+[![Codeship Status for quikkoo/exercism-scala](https://app.codeship.com/projects/83f1ed10-631f-0134-f5db-22dce1a7050d/status?branch=master)](https://app.codeship.com/projects/175274)
+
 Scala exercises from [exercism.io](http://exercism.io/)
 
 This is a multi module project for all exercises in scala language,
