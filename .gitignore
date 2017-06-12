@@ -1,16 +1,21 @@
 *.class
-.cache
-.history
-.lib/
-src_managed/
-lib_managed/
-project/boot/
-project/plugins/project/
-target/
+*.log
 
-.scala_dependencies
-.worksheet
+.lein*
+.gradle/
+build/
+target/
+/project/project
+
 .classpath
 .project
 .settings/
+
+*.iws
+.idea/
+.idea_modules/
+
+.cache-main
+.scala_dependencies
+.worksheet
 

@@ -1,12 +1,10 @@
 package quikkoo.exercism
 
-import scala.collection.mutable.ArrayBuffer
-
 class Anagram(subject: String) {
 
   def matches(candidates: Seq[String]): Seq[String] = {
     val lsub = subject.toLowerCase
-    var ssub = lsub.toCharArray.sorted
+    val ssub = lsub.toCharArray.sorted
 
     candidates.filter { candidate =>
       val lcan = candidate.toLowerCase

@@ -4,19 +4,23 @@ import org.scalatest.{ FunSuite, Matchers }
 
 class HelloWorldTest extends FunSuite with Matchers {
 
-  test("Without name") {
+  test("without name") {
     HelloWorld.greet() should be ("Hello, World!")
   }
 
-  test("With empty name") {
-    HelloWorld.greet("") should be ("Hello, !")
+  test("with empty name") {
+    HelloWorld.greet("") should be ("Hello, World!")
   }
 
-  test("With name Alice") {
-    HelloWorld.greet("Alice") should be ("Hello, Alice!")
+  test("with name Scala") {
+    HelloWorld.greet("Scala") should be ("Hello, Scala!")
   }
 
-  test("With null name") {
+  test("with name Exercism") {
+    HelloWorld.greet("Exercism") should be ("Hello, Exercism!")
+  }
+
+  test("with null name") {
     an[IllegalArgumentException] should be thrownBy {
       HelloWorld.greet(null)
     }
